@@ -181,8 +181,8 @@ a { color: inherit; }
 .buy__body { padding: var(--space-lg); display: flex; flex-direction: column; gap: var(--space-md); }
 .buy .ph { border: 0; border-right: 3px solid var(--color-ink); border-radius: 0; min-height: 360px; }
 .list { margin: 0; padding: 0; list-style: none; display: grid; gap: 0.5rem; }
-.list li { display: flex; gap: 0.6rem; align-items: baseline; }
-.list li::before { content: ""; flex: none; width: 12px; height: 12px; background: var(--color-accent); border: 2px solid var(--color-ink); border-radius: 3px; translate: 0 1px; }
+.list li { position: relative; padding-left: 1.7rem; }
+.list li::before { content: ""; position: absolute; left: 0; top: 0.5em; width: 12px; height: 12px; background: var(--color-accent); border: 2px solid var(--color-ink); border-radius: 3px; }
 .price { font-family: var(--font-display); font-weight: 800; font-size: var(--text-xl); }
 .sets .section-title { color: var(--color-ink); }
 
