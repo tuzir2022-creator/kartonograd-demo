@@ -1,7 +1,57 @@
 /* Hallmark · genre: playful · macrostructure: Marquee Hero + Long Document · theme: custom "Картон и солнце" · nav: N1b · footer: Ft8 · enrichment: Tier B hand-built SVG
  * Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4
  */
-@import url("tokens.css");
+/* Hallmark · tokens · theme: custom "Картон и солнце" (playful) */
+:root {
+  /* цвет */
+  --color-paper: oklch(97.5% 0.018 88);
+  --color-paper-2: oklch(94% 0.03 82);
+  --color-kraft: oklch(76% 0.075 68);
+  --color-kraft-deep: oklch(62% 0.085 60);
+  --color-ink: oklch(26% 0.03 50);
+  --color-ink-soft: oklch(42% 0.03 52);
+  --color-accent: oklch(71% 0.175 52);
+  --color-accent-press: oklch(64% 0.18 48);
+  --color-teal: oklch(68% 0.11 198);
+  --color-teal-deep: oklch(48% 0.09 205);
+  --color-sun: oklch(89% 0.15 96);
+  --color-line: oklch(26% 0.03 50 / 0.16);
+  --color-focus: oklch(48% 0.09 205);
+  --color-todo: #8F7212;
+
+  /* шрифты */
+  --font-display: "Unbounded", "Arial Black", sans-serif;
+  --font-body: "Nunito", system-ui, sans-serif;
+
+  /* шкала шрифтов */
+  --text-sm: 0.9375rem;
+  --text-md: 1.0625rem;
+  --text-lg: 1.25rem;
+  --text-xl: clamp(1.5rem, 1.1rem + 1.6vw, 2.125rem);
+  --text-2xl: clamp(1.75rem, 1.2rem + 2.6vw, 3rem);
+  --text-display: clamp(2.1rem, 1.2rem + 4.6vw, 4.6rem);
+
+  /* отступы */
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3.5rem;
+  --space-2xl: clamp(4rem, 3rem + 6vw, 8rem);
+
+  /* формы */
+  --radius-card: 14px;
+  --radius-pill: 999px;
+  --rule-dash: 2px dashed var(--color-kraft-deep);
+  --shadow-lift: 0 14px 28px -14px oklch(40% 0.08 55 / 0.45);
+
+  /* движение */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 160ms;
+  --dur-med: 420ms;
+}
+
 
 *, *::before, *::after { box-sizing: border-box; }
 html, body { overflow-x: clip; }
