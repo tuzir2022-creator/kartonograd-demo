@@ -160,7 +160,7 @@ a { color: inherit; }
 .gallery { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); grid-template-rows: auto auto; gap: var(--space-md); margin-top: var(--space-xl); }
 .ph { position: relative; border-radius: var(--radius-card); border: 3px solid var(--color-ink); overflow: hidden; display: grid; place-items: center; text-align: center; padding: var(--space-md); min-height: 200px;
   background: repeating-linear-gradient(135deg, var(--color-kraft) 0 14px, oklch(72% 0.075 66) 14px 28px); color: var(--color-ink); font-weight: 800; }
-.ph span { background: var(--color-paper); border: 2px solid var(--color-ink); border-radius: var(--radius-pill); padding: 0.4rem 0.9rem; max-width: 100%; }
+.ph > span, .ph > div > span { display: inline-block; background: var(--color-paper); border: 2px solid var(--color-ink); border-radius: var(--radius-pill); padding: 0.4rem 0.9rem; max-width: 100%; }
 .ph--tall { grid-row: span 2; min-height: 420px; }
 .ph--video { background: var(--color-teal); }
 .play { width: 76px; height: 76px; border-radius: 50%; background: var(--color-sun); border: 3px solid var(--color-ink); display: grid; place-items: center; box-shadow: 0 5px 0 var(--color-ink); margin: 0 auto var(--space-sm); }
