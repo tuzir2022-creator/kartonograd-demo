@@ -59,7 +59,7 @@
   function upd() { sticky.classList.toggle('on', pastHero && !inSets); }
   if ('IntersectionObserver' in window) {
     new IntersectionObserver(function (e) { pastHero = !e[0].isIntersecting && e[0].boundingClientRect.top < 0; upd(); }).observe($('.hero'));
-    new IntersectionObserver(function (e) { inSets = e[0].isIntersecting; upd(); }, { threshold: 0.15 }).observe($('#sets'));
+    new IntersectionObserver(function (e) { inSets = e[0].isIntersecting; upd(); }, { threshold: 0 }).observe($('#sets'));
   }
 
   /* неразрывный пробел после коротких слов */

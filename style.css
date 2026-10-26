@@ -289,6 +289,11 @@ dialog.cart::backdrop { background: rgb(20 34 79 / 0.5); }
   .sticky .btn { width: 100%; }
   .toast { bottom: calc(88px + env(safe-area-inset-bottom)); }
 }
+@media (max-width: 560px) {
+  .fig__body h3 { font-size: 1rem; }
+  .fig__body { padding-inline: var(--space-sm); }
+  .fig__body a { font-size: var(--text-sm); }
+}
 @media (max-width: 360px) {
   .logo img { height: 36px; }
   .iconbtn { width: 44px; height: 44px; }
