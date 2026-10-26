@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Картоноград – картонный конструктор</title>
+<meta name="description" content="Демонстрационный макет посадочной страницы картонного конструктора «Картоноград».">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#f8f3e6">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23e09a52'/%3E%3Crect x='7' y='12' width='8' height='14' fill='%23fff3d6' stroke='%232b211b' stroke-width='2'/%3E%3Crect x='17' y='7' width='8' height='19' fill='%23fff3d6' stroke='%232b211b' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=Unbounded:wght@600;700;800&display=swap&subset=cyrillic">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.className += ' js';</script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top__in">
+    <a class="brand" href="#top" aria-label="Картоноград, в начало">
+      <svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="8" fill="var(--color-accent)" stroke="var(--color-ink)" stroke-width="2.5"/><rect x="7" y="14" width="8" height="14" fill="var(--color-paper)" stroke="var(--color-ink)" stroke-width="2.5"/><rect x="18" y="7" width="9" height="21" fill="var(--color-paper)" stroke="var(--color-ink)" stroke-width="2.5"/></svg>
+      Картоноград
+    </a>
+    <nav aria-label="Основное">
+      <a href="#how">Как играть</a>
+      <a href="#why">Родителям</a>
+      <a class="btn" href="#buy">Купить</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero__grid">
+    <div>
+      <h1>Собери свой <span class="hl">город</span> из картона</h1>
+      <p class="lead">Картонный конструктор «Картоноград». Достаёшь детали, собираешь дома, придумываешь, кто в них живёт. Дальше начинается игра.</p>
+      <div class="hero__cta">
+        <a class="btn" href="#buy">Выбрать набор</a>
+        <a class="btn btn--ghost" href="#how">Как это устроено</a>
+      </div>
+      <ul class="facts" aria-label="Коротко о наборе">
+        <li><b>Возраст</b><span class="todo">&lt;&lt;от скольки лет&gt;&gt;</span></li>
+        <li><b>Деталей в наборе</b><span class="todo">&lt;&lt;количество&gt;&gt;</span></li>
+        <li><b>Время сборки</b><span class="todo">&lt;&lt;сколько&gt;&gt;</span></li>
+      </ul>
+    </div>
+
+    <div class="hero__art">
+      <svg viewBox="0 0 600 520" role="img" aria-label="Город из картона: башня, дом с красной крышей, мост и флажки">
+        <!-- солнце -->
+        <g class="sun-spin">
+          <circle cx="470" cy="90" r="46" fill="var(--color-sun)" stroke="var(--color-ink)" stroke-width="4"/>
+          <g stroke="var(--color-ink)" stroke-width="4" stroke-linecap="round">
+            <path d="M470 22v16M470 142v16M402 90h16M522 90h16M422 42l11 11M507 127l11 11M518 42l-11 11M433 127l-11 11"/>
+          </g>
+        </g>
+        <!-- облако из картона -->
+        <path d="M60 120h110a22 22 0 0 0 0-44 30 30 0 0 0-58-6 24 24 0 0 0-52 14 18 18 0 0 0 0 36z" fill="var(--color-paper)" stroke="var(--color-ink)" stroke-width="4" stroke-linejoin="round"/>
+        <!-- земля -->
+        <path d="M10 440h580v60H10z" fill="var(--color-teal)" stroke="var(--color-ink)" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M10 440h580" stroke="var(--color-ink)" stroke-width="4"/>
+        <g stroke="var(--color-ink)" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 14"><path d="M30 470h540"/></g>
+
+        <!-- башня -->
+        <g stroke="var(--color-ink)" stroke-width="4" stroke-linejoin="round">
+          <rect x="70" y="180" width="120" height="260" fill="var(--color-kraft)"/>
+          <path d="M60 180h140l-10-34H70z" fill="var(--color-accent)"/>
+          <path d="M92 146l38-62 38 62z" fill="var(--color-sun)"/>
+          <path d="M130 84V52" /><path d="M130 52h30l-8 9 8 9h-30z" fill="var(--color-teal)"/>
+          <rect x="94" y="206" width="30" height="40" rx="15" fill="var(--color-paper)"/>
+          <rect x="136" y="206" width="30" height="40" rx="15" fill="var(--color-paper)"/>
+          <rect x="94" y="278" width="30" height="40" rx="15" fill="var(--color-paper)"/>
+          <rect x="136" y="278" width="30" height="40" rx="15" fill="var(--color-paper)"/>
+          <path d="M104 440v-56a26 26 0 0 1 52 0v56z" fill="var(--color-kraft-deep)"/>
+        </g>
+        <!-- линии сгиба -->
+        <g stroke="var(--color-ink)" stroke-width="2.5" stroke-dasharray="6 8" opacity=".55"><path d="M130 252v18M70 348h120"/></g>
+
+        <!-- дом -->
+        <g stroke="var(--color-ink)" stroke-width="4" stroke-linejoin="round">
+          <rect x="250" y="290" width="150" height="150" fill="var(--color-paper)"/>
+          <path d="M236 292l89-86 89 86z" fill="var(--color-accent)"/>
+          <rect x="360" y="226" width="26" height="46" fill="var(--color-kraft-deep)"/>
+          <rect x="278" y="318" width="40" height="40" fill="var(--color-teal)"/>
+          <rect x="342" y="318" width="40" height="40" fill="var(--color-teal)"/>
+          <path d="M296 440v-50a22 22 0 0 1 44 0v50z" fill="var(--color-kraft)"/>
+          <path d="M320 318v40M278 338h40M362 318v40M342 338h40" stroke-width="3"/>
+          <circle cx="325" cy="262" r="14" fill="var(--color-sun)"/>
+        </g>
+
+        <!-- мост и малый дом -->
+        <g stroke="var(--color-ink)" stroke-width="4" stroke-linejoin="round">
+          <path d="M400 440v-70a60 60 0 0 1 120 0v70z" fill="var(--color-kraft)"/>
+          <path d="M424 440v-52a36 36 0 0 1 72 0v52z" fill="var(--color-teal)"/>
+          <rect x="520" y="340" width="64" height="100" fill="var(--color-sun)"/>
+          <path d="M512 342l40-44 40 44z" fill="var(--color-teal-deep)"/>
+          <rect x="540" y="366" width="24" height="26" fill="var(--color-paper)"/>
+        </g>
+        <!-- флажки -->
+        <g stroke="var(--color-ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M214 168C260 190 320 150 372 176" fill="none"/>
+          <path d="M232 176l10 22 12-20z" fill="var(--color-accent)"/>
+          <path d="M270 180l10 22 12-22z" fill="var(--color-sun)"/>
+          <path d="M310 170l10 22 12-22z" fill="var(--color-teal)"/>
+          <path d="M346 172l10 22 12-22z" fill="var(--color-accent)"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="how">
+  <div class="wrap">
+    <h2 class="reveal">Три шага до города</h2>
+    <p class="lead reveal" style="margin-top: var(--space-sm)">Всё просто: открыл коробку и играешь. Точный порядок сборки подтвердим по инструкции набора.</p>
+    <ol class="steps">
+      <li class="step reveal">
+        <div class="badge"><svg viewBox="0 0 34 34" fill="none" stroke="var(--color-ink)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M4 12l13-7 13 7v14l-13 7-13-7z"/><path d="M4 12l13 7 13-7M17 19v14"/></svg></div>
+        <h3>Открой коробку</h3>
+        <p>Внутри картонные детали будущего города. <span class="todo">&lt;&lt;что в комплекте&gt;&gt;</span></p>
+      </li>
+      <li class="step reveal">
+        <div class="badge"><svg viewBox="0 0 34 34" fill="none" stroke="var(--color-ink)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M5 17h8v-6a4 4 0 1 1 8 0v6h8v8h-6a4 4 0 1 0 0 8H5z" transform="translate(0 -4) scale(.95)"/></svg></div>
+        <h3>Собери дома и мосты</h3>
+        <p>Детали соединяются между собой. <span class="todo">&lt;&lt;без клея и ножниц?&gt;&gt;</span></p>
+      </li>
+      <li class="step reveal">
+        <div class="badge"><svg viewBox="0 0 34 34" fill="none" stroke="var(--color-ink)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M10 6l19 11-19 11z" fill="var(--color-paper)"/></svg></div>
+        <h3>Играй и перестраивай</h3>
+        <p>Город можно менять сколько угодно. Придумай, кто в нём живёт.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section inside" id="inside">
+  <div class="wrap">
+    <div class="inside__head">
+      <h2 class="reveal">Что внутри коробки</h2>
+      <p class="lead reveal">Здесь будут настоящие фото набора из материалов заказчика. Пока стоят заглушки: так видно ритм страницы.</p>
+    </div>
+    <div class="gallery">
+      <div class="ph ph--tall reveal"><span>Фото набора в сборе <span class="todo">&lt;&lt;фото от заказчика&gt;&gt;</span></span></div>
+      <div class="ph ph--video reveal">
+        <div>
+          <div class="play"><svg viewBox="0 0 30 30" aria-hidden="true"><path d="M5 3l22 12L5 27z" fill="var(--color-ink)"/></svg></div>
+          <span>Видео: как собрать <span class="todo">&lt;&lt;ролик от заказчика&gt;&gt;</span></span>
+        </div>
+      </div>
+      <div class="ph reveal"><span>Крупно: детали <span class="todo">&lt;&lt;фото&gt;&gt;</span></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="why">
+  <div class="wrap why__grid">
+    <div class="reveal">
+      <h2>Почему это нравится родителям</h2>
+      <p class="lead" style="margin-top: var(--space-md)">Играть руками интереснее, чем смотреть в экран. Остальное расскажем честно и без громких слов.</p>
+    </div>
+    <ul class="why__list">
+      <li class="reveal">
+        <div class="badge" style="background: var(--color-teal)"><svg viewBox="0 0 34 34" width="30" height="30" fill="none" stroke="var(--color-ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="7" width="26" height="17" rx="3"/><path d="M12 30h10M4 4l26 26"/></svg></div>
+        <div><h3>Игра без экрана</h3><p>Ребёнок строит руками, а не листает ленту.</p></div>
+      </li>
+      <li class="reveal">
+        <div class="badge"><svg viewBox="0 0 34 34" width="30" height="30" fill="none" stroke="var(--color-ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="5"/><circle cx="24" cy="13" r="4"/><path d="M3 29c0-6 4-10 8-10s8 4 8 10M20 29c0-4 2-7 5-7s6 3 6 7"/></svg></div>
+        <div><h3>Собирать можно вместе</h3><p>Удобный повод посидеть рядом: родитель, брат или друг.</p></div>
+      </li>
+      <li class="reveal">
+        <div class="badge" style="background: var(--color-accent)"><svg viewBox="0 0 34 34" width="30" height="30" fill="none" stroke="var(--color-ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 17a11 11 0 0 1 19-7.5M28 17a11 11 0 0 1-19 7.5"/><path d="M25 3v7h-7M9 31v-7h7"/></svg></div>
+        <div><h3>Можно переделывать</h3><p>Разобрал, собрал по-другому, придумал новый квартал. <span class="todo">&lt;&lt;из какого картона, безопасность&gt;&gt;</span></p></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section sets" id="buy">
+  <div class="wrap">
+    <h2 class="section-title reveal">Набор «Картоноград»</h2>
+    <article class="card buy reveal">
+      <div class="ph"><span>Фото коробки <span class="todo">&lt;&lt;фото от заказчика&gt;&gt;</span></span></div>
+      <div class="buy__body">
+        <h3>Всё, чтобы начать строить</h3>
+        <ul class="list">
+          <li>Картонные детали города <span class="todo">&lt;&lt;состав набора&gt;&gt;</span></li>
+          <li>Инструкция со схемами <span class="todo">&lt;&lt;есть ли&gt;&gt;</span></li>
+          <li>Размер собранного города <span class="todo">&lt;&lt;размеры&gt;&gt;</span></li>
+        </ul>
+        <p class="price"><span class="todo">&lt;&lt;цена&gt;&gt;</span></p>
+        <a class="btn" href="#buy" aria-label="Купить набор Картоноград">Купить набор</a>
+        <p style="font-size: var(--text-sm); color: var(--color-ink-soft)">Ссылка на покупку: <span class="todo">&lt;&lt;маркетплейс или магазин&gt;&gt;</span>. Доставка: <span class="todo">&lt;&lt;условия&gt;&gt;</span></p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="reviews">
+  <div class="wrap">
+    <h2 class="reveal">Что говорят родители</h2>
+    <div class="rev">
+      <figure class="card reveal" style="margin:0"><p><span class="todo">&lt;&lt;отзыв родителя, настоящий&gt;&gt;</span></p><figcaption class="who"><span class="todo">&lt;&lt;имя, город&gt;&gt;</span></figcaption></figure>
+      <figure class="card reveal" style="margin:0"><p><span class="todo">&lt;&lt;отзыв родителя, настоящий&gt;&gt;</span></p><figcaption class="who"><span class="todo">&lt;&lt;имя, город&gt;&gt;</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq" style="padding-top:0">
+  <div class="wrap">
+    <h2 class="reveal">Частые вопросы</h2>
+    <div class="faq reveal">
+      <details open><summary>С какого возраста подходит?</summary><p><span class="todo">&lt;&lt;возраст и рекомендации по сборке&gt;&gt;</span></p></details>
+      <details><summary>Из чего сделан набор?</summary><p><span class="todo">&lt;&lt;материал, сертификаты безопасности&gt;&gt;</span></p></details>
+      <details><summary>Как быстро доставят?</summary><p><span class="todo">&lt;&lt;сроки и способы доставки&gt;&gt;</span></p></details>
+      <details><summary>Можно ли вернуть?</summary><p><span class="todo">&lt;&lt;условия возврата&gt;&gt;</span></p></details>
+    </div>
+  </div>
+</section>
+
+<section class="section final">
+  <div class="wrap">
+    <h2 class="reveal">Пора строить свой город</h2>
+    <a class="btn" href="#buy">Купить набор</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Картоноград <i>●</i> собери <i>●</i> построй <i>●</i> играй <i>●</i> Картоноград <i>●</i> собери <i>●</i> построй <i>●</i> играй <i>●</i></span>
+      <span>Картоноград <i>●</i> собери <i>●</i> построй <i>●</i> играй <i>●</i> Картоноград <i>●</i> собери <i>●</i> построй <i>●</i> играй <i>●</i></span>
+    </div>
+  </div>
+  <div class="wrap foot__in">
+    <div>
+      <strong>Картоноград</strong>
+      <p>Контакты: <span class="todo">&lt;&lt;телефон, почта, мессенджеры&gt;&gt;</span></p>
+      <p>Реквизиты: <span class="todo">&lt;&lt;наименование продавца&gt;&gt;</span></p>
+    </div>
+    <p class="demo-note">Демонстрационный макет посадочной страницы. Не является официальным сайтом организации. Все данные в жёлтых скобках будут заменены материалами заказчика.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
